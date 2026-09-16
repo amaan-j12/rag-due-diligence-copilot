@@ -1,0 +1,1 @@
+"""RBAC-aware retrieval package (BUILD_SPEC.md Part 6)."""

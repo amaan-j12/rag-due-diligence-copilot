@@ -1,0 +1,73 @@
+{
+  "question": "What is JPMorgan Chase's total litigation exposure and what are the main legal risks?",
+  "mode": "rerank",
+  "roles": {
+    "analyst": {
+      "sectors_seen": [
+        "financial"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "JPM_2026-02-13_9141a50bc8",
+          "ticker": "JPM",
+          "sector": "financial"
+        },
+        {
+          "chunk_id": "JPM_2026-02-13_cdb57572b9",
+          "ticker": "JPM",
+          "sector": "financial"
+        },
+        {
+          "chunk_id": "JPM_2026-02-13_c373bea542",
+          "ticker": "JPM",
+          "sector": "financial"
+        },
+        {
+          "chunk_id": "JPM_2026-02-13_39823a2efb",
+          "ticker": "JPM",
+          "sector": "financial"
+        },
+        {
+          "chunk_id": "JPM_2026-02-13_0e45edf302",
+          "ticker": "JPM",
+          "sector": "financial"
+        }
+      ],
+      "answer": "**Litigation exposure.** The filing does not disclose a single aggregate dollar figure for JPMorgan Chase's total litigation exposure or its litigation reserve balance, so I cannot provide a total exposure number from the retrieved context. What the filing does disclose:\n\n- Litigation reserves are evaluated quarterly and adjusted as management judgment dictates following consultation with counsel [JPM_2026-02-13_0e45edf302].\n- JPMorganChase's **legal expense** was **$361 million in 2025, $740 million in 2024, and $1.4 billion in 2023** [JPM_2026-02-13_0e45edf302].\n- Management states it cannot predict with confidence the outcome, timing, or eventual losses/fines/penalties of pending matters, particularly where damages sought are very large or indeterminate, matters present novel legal theories, or involve many parties or early-stage discovery [JPM_2026-02-13_0e45edf302].\n- JPMorganChase believes, based on current knowledge and legal consultation, that other currently pending legal proceedings should not have a material adverse effect on its consolidated financial condition \u2014 but there is **no assurance the ultimate resolution will not significantly exceed current reserves** [JPM_2026-02-13_0e45edf302]. The outcome of a particular matter could be material to operating results in a given period [JPM_2026-02-13_0e45edf302].\n\n**Main legal risks.** The principal legal risk areas cited in the risk factor discussion are:\n\n- **Litigation and governmental proceedings generally:** JPMorganChase is a defendant in many civil and governmental proceedings, including class actions, derivative actions, and disputes with third parties, plus investigations and enforcement actions by U.S. and non-U.S. authorities, **including criminal proceedings** [JPM_2026-02-13_9141a50bc8].\n- **Potential material adverse impact:** Pending actions could result in judgments, settlements, or penalties that could materially and adversely affect business, financial condition, or results of operations, or cause serious reputational harm [JPM_2026-02-13_9141a50bc8].\n- **Unpredictability and reserve shortfall:** Exposure to legal matters is described as unpredictable and could, in some cases, **exceed the amount of reserves established** [JPM_2026-02-13_9141a50bc8].\n- **Investigations/enforcement outcomes:** Resolving governmental investigations can bring significant penalties, admissions of wrongdoing, disqualification from doing business with certain clients or in certain jurisdictions, greater litigation exposure, loss of clients/business, restrictions on products/services, and loss of permission to operate certain businesses [JPM_2026-02-13_9141a50bc8].\n- **Escalating regulatory environment:** JPMorganChase expects continued heightened regulatory scrutiny, pervasive investigations and enforcement actions, formal/punitive enforcement rather than informal supervisory actions, and imposition of significant penalties [JPM_2026-02-13_9141a50bc8].\n\n**Risk governance context.** Separately, the filing describes how these risks are managed: legal risk is defined as the risk of loss from actual or alleged failure to meet legal obligations, managed by the global Legal function, with the General Counsel reporting to the CEO and reporting significant legal matters to the Board and Audit Committee [JPM_2026-02-13_cdb57572b9].\n\nNote: I have not included additional chunks that discuss collateral, CCPs, derivatives and credit/market risk, as the provided excerpts from those passages relate to counterparty and collateral risk rather than to discrete litigation exposure claims, and I could not find a stated total litigation exposure figure anywhere in the retrieved context.\n\n**Sources:**\n- [JPM_2026-02-13_9141a50bc8] JPM / Form 10-K / 2026-02-13 / Item 1A Risk Factors\n- [JPM_2026-02-13_0e45edf302] JPM / Form 10-K / 2026-02-13 / Item 15 (Legal proceedings / Notes)\n- [JPM_2026-02-13_cdb57572b9] JPM / Form 10-K / 2026-02-13 / Item 15 (Legal Risk Management)"
+    },
+    "external_contractor": {
+      "sectors_seen": [
+        "pharma",
+        "tech"
+      ],
+      "retrieved": [
+        {
+          "chunk_id": "MRK_2026-02-24_873cbdf9b9",
+          "ticker": "MRK",
+          "sector": "pharma"
+        },
+        {
+          "chunk_id": "LLY_2026-02-12_88ce9b663e",
+          "ticker": "LLY",
+          "sector": "pharma"
+        },
+        {
+          "chunk_id": "IBM_2026-02-24_ff1f0cf3f8",
+          "ticker": "IBM",
+          "sector": "tech"
+        },
+        {
+          "chunk_id": "IBM_2026-02-24_513fcdbcbf",
+          "ticker": "IBM",
+          "sector": "tech"
+        },
+        {
+          "chunk_id": "JNJ_2026-02-11_0af6ebef58",
+          "ticker": "JNJ",
+          "sector": "pharma"
+        }
+      ],
+      "answer": "I don't have enough information in the retrieved filings to answer this question. The provided context contains SEC filing excerpts from Merck (MRK), Eli Lilly (LLY), IBM, and Johnson & Johnson (JNJ), but does not include any JPMorgan Chase 10-K or 10-Q filings discussing the company's litigation exposure or legal risks. The only reference to JPMorgan Chase in the context is as an administrative agent for IBM's credit agreement, which does not relate to JPMorgan Chase's own litigation or legal risks.\n\nSources: None applicable (no JPMorgan Chase filing excerpts were provided in the context)."
+    }
+  }
+}

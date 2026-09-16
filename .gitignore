@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual env
+venv/
+
+# Secrets / local env
+.env.local
+.env
+
+# Generated data (large binaries / raw filings / local vector DBs)
+data/raw/
+data/qdrant_db/
+data/bm25_index.pkl
+*.pkl
+
+# Logs
+logs/*.jsonl
+logs/*.log
+!logs/.gitkeep
+
+# macOS
+.DS_Store
+
+# Eval scratch / batch outputs (regenerable)
+eval/results/verification_batch_*
+eval/results/records_hybrid_v3.json

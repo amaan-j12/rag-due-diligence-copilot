@@ -1,0 +1,46 @@
+name: LLMOps eval gate
+
+on:
+  pull_request:
+    branches: [main]
+    # Only prompt-template / retrieval / chunking / RBAC / verifier changes
+    # can shift eval numbers; everything else is ignored to keep CI cheap.
+    paths:
+      - "config/prompt_templates.yaml"
+      - "config/retrieval_config.yaml"
+      - "config/rbac_policy.yaml"
+      - "config/ci_thresholds.yaml"
+      - "eval/ci_subset.json"
+      - "eval/ci_eval_gate.py"
+      - "eval/results/ci_snapshot.json"
+      - "src/retrieval/**"
+      - "src/chunking/**"
+      - "src/verification/**"
+      - "src/rerank/**"
+  workflow_dispatch:
+
+jobs:
+  eval-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt pyyaml
+
+      # Snapshot mode: compares the COMMITTED eval/results/ci_snapshot.json
+      # against config/ci_thresholds.yaml. No LLM is available in CI, so a
+      # contributor regenerates the snapshot locally with --refresh (real
+      # opencode-CLI verification) and commits it alongside the config change.
+      # If that snapshot's faithfulness / pass-rate / latency drops below the
+      # bar, this workflow fails the PR (BUILD_SPEC.md Part 7).
+      - name: Run eval gate
+        run: python eval/ci_eval_gate.py

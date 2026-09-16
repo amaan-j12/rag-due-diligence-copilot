@@ -1,0 +1,902 @@
+[
+  {
+    "ticker": "AAPL",
+    "sector": "tech",
+    "company": "Apple Inc.",
+    "form": "10-Q",
+    "filing_date": "2026-07-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/AAPL/AAPL_10-Q_2026-07-31.htm",
+    "size_bytes": 1018210
+  },
+  {
+    "ticker": "AAPL",
+    "sector": "tech",
+    "company": "Apple Inc.",
+    "form": "10-Q",
+    "filing_date": "2026-05-01",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/AAPL/AAPL_10-Q_2026-05-01.htm",
+    "size_bytes": 999810
+  },
+  {
+    "ticker": "AAPL",
+    "sector": "tech",
+    "company": "Apple Inc.",
+    "form": "10-K",
+    "filing_date": "2025-10-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/AAPL/AAPL_10-K_2025-10-31.htm",
+    "size_bytes": 1520208
+  },
+  {
+    "ticker": "MSFT",
+    "sector": "tech",
+    "company": "MICROSOFT CORP",
+    "form": "10-K",
+    "filing_date": "2026-07-29",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/MSFT/MSFT_10-K_2026-07-29.htm",
+    "size_bytes": 8585501
+  },
+  {
+    "ticker": "MSFT",
+    "sector": "tech",
+    "company": "MICROSOFT CORP",
+    "form": "10-Q",
+    "filing_date": "2026-04-29",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/MSFT/MSFT_10-Q_2026-04-29.htm",
+    "size_bytes": 7731948
+  },
+  {
+    "ticker": "MSFT",
+    "sector": "tech",
+    "company": "MICROSOFT CORP",
+    "form": "10-Q",
+    "filing_date": "2026-01-28",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/MSFT/MSFT_10-Q_2026-01-28.htm",
+    "size_bytes": 7483278
+  },
+  {
+    "ticker": "NVDA",
+    "sector": "tech",
+    "company": "NVIDIA CORP",
+    "form": "10-Q",
+    "filing_date": "2026-05-20",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/NVDA/NVDA_10-Q_2026-05-20.htm",
+    "size_bytes": 1167053
+  },
+  {
+    "ticker": "NVDA",
+    "sector": "tech",
+    "company": "NVIDIA CORP",
+    "form": "10-K",
+    "filing_date": "2026-02-25",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/NVDA/NVDA_10-K_2026-02-25.htm",
+    "size_bytes": 1967816
+  },
+  {
+    "ticker": "NVDA",
+    "sector": "tech",
+    "company": "NVIDIA CORP",
+    "form": "10-Q",
+    "filing_date": "2025-11-19",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/NVDA/NVDA_10-Q_2025-11-19.htm",
+    "size_bytes": 1381330
+  },
+  {
+    "ticker": "CRM",
+    "sector": "tech",
+    "company": "Salesforce, Inc.",
+    "form": "10-Q",
+    "filing_date": "2026-05-28",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000127/crm-20260430.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/CRM/CRM_10-Q_2026-05-28.htm",
+    "size_bytes": 1737941
+  },
+  {
+    "ticker": "CRM",
+    "sector": "tech",
+    "company": "Salesforce, Inc.",
+    "form": "10-K",
+    "filing_date": "2026-03-02",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/CRM/CRM_10-K_2026-03-02.htm",
+    "size_bytes": 2570278
+  },
+  {
+    "ticker": "CRM",
+    "sector": "tech",
+    "company": "Salesforce, Inc.",
+    "form": "10-Q",
+    "filing_date": "2025-12-04",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000238/crm-20251031.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/CRM/CRM_10-Q_2025-12-04.htm",
+    "size_bytes": 2140799
+  },
+  {
+    "ticker": "ADBE",
+    "sector": "tech",
+    "company": "ADOBE INC.",
+    "form": "10-Q",
+    "filing_date": "2026-06-15",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000112/adbe-20260529.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/ADBE/ADBE_10-Q_2026-06-15.htm",
+    "size_bytes": 1662200
+  },
+  {
+    "ticker": "ADBE",
+    "sector": "tech",
+    "company": "ADOBE INC.",
+    "form": "10-Q",
+    "filing_date": "2026-03-25",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000056/adbe-20260227.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/ADBE/ADBE_10-Q_2026-03-25.htm",
+    "size_bytes": 1375564
+  },
+  {
+    "ticker": "ADBE",
+    "sector": "tech",
+    "company": "ADOBE INC.",
+    "form": "10-K",
+    "filing_date": "2026-01-15",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/ADBE/ADBE_10-K_2026-01-15.htm",
+    "size_bytes": 2321176
+  },
+  {
+    "ticker": "ORCL",
+    "sector": "tech",
+    "company": "ORACLE CORP",
+    "form": "10-K",
+    "filing_date": "2026-06-22",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/ORCL/ORCL_10-K_2026-06-22.htm",
+    "size_bytes": 6873937
+  },
+  {
+    "ticker": "ORCL",
+    "sector": "tech",
+    "company": "ORACLE CORP",
+    "form": "10-Q",
+    "filing_date": "2026-03-11",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/orcl-20260228.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/ORCL/ORCL_10-Q_2026-03-11.htm",
+    "size_bytes": 4172832
+  },
+  {
+    "ticker": "ORCL",
+    "sector": "tech",
+    "company": "ORACLE CORP",
+    "form": "10-Q",
+    "filing_date": "2025-12-11",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/ORCL/ORCL_10-Q_2025-12-11.htm",
+    "size_bytes": 3771598
+  },
+  {
+    "ticker": "IBM",
+    "sector": "tech",
+    "company": "INTERNATIONAL BUSINESS MACHINES CORP",
+    "form": "10-Q",
+    "filing_date": "2026-07-23",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000078/ibm-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/IBM/IBM_10-Q_2026-07-23.htm",
+    "size_bytes": 3669227
+  },
+  {
+    "ticker": "IBM",
+    "sector": "tech",
+    "company": "INTERNATIONAL BUSINESS MACHINES CORP",
+    "form": "10-Q",
+    "filing_date": "2026-04-23",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000038/ibm-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/IBM/IBM_10-Q_2026-04-23.htm",
+    "size_bytes": 2519024
+  },
+  {
+    "ticker": "IBM",
+    "sector": "tech",
+    "company": "INTERNATIONAL BUSINESS MACHINES CORP",
+    "form": "10-K",
+    "filing_date": "2026-02-24",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/IBM/IBM_10-K_2026-02-24.htm",
+    "size_bytes": 1077083
+  },
+  {
+    "ticker": "CSCO",
+    "sector": "tech",
+    "company": "CISCO SYSTEMS, INC.",
+    "form": "10-Q",
+    "filing_date": "2026-05-19",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000078/csco-20260425.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/CSCO/CSCO_10-Q_2026-05-19.htm",
+    "size_bytes": 2838351
+  },
+  {
+    "ticker": "CSCO",
+    "sector": "tech",
+    "company": "CISCO SYSTEMS, INC.",
+    "form": "10-Q",
+    "filing_date": "2026-02-17",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000021/csco-20260124.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/CSCO/CSCO_10-Q_2026-02-17.htm",
+    "size_bytes": 2818013
+  },
+  {
+    "ticker": "CSCO",
+    "sector": "tech",
+    "company": "CISCO SYSTEMS, INC.",
+    "form": "10-K",
+    "filing_date": "2025-09-03",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000111/csco-20250726.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/CSCO/CSCO_10-K_2025-09-03.htm",
+    "size_bytes": 3528800
+  },
+  {
+    "ticker": "AMD",
+    "sector": "tech",
+    "company": "ADVANCED MICRO DEVICES INC",
+    "form": "10-Q",
+    "filing_date": "2026-08-05",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/AMD/AMD_10-Q_2026-08-05.htm",
+    "size_bytes": 1348602
+  },
+  {
+    "ticker": "AMD",
+    "sector": "tech",
+    "company": "ADVANCED MICRO DEVICES INC",
+    "form": "10-Q",
+    "filing_date": "2026-05-06",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/AMD/AMD_10-Q_2026-05-06.htm",
+    "size_bytes": 1142296
+  },
+  {
+    "ticker": "AMD",
+    "sector": "tech",
+    "company": "ADVANCED MICRO DEVICES INC",
+    "form": "10-K",
+    "filing_date": "2026-02-04",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/AMD/AMD_10-K_2026-02-04.htm",
+    "size_bytes": 2174592
+  },
+  {
+    "ticker": "PFE",
+    "sector": "pharma",
+    "company": "PFIZER INC",
+    "form": "10-Q",
+    "filing_date": "2026-08-04",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000095/pfe-20260628.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/PFE/PFE_10-Q_2026-08-04.htm",
+    "size_bytes": 2795882
+  },
+  {
+    "ticker": "PFE",
+    "sector": "pharma",
+    "company": "PFIZER INC",
+    "form": "10-Q",
+    "filing_date": "2026-05-05",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000054/pfe-20260329.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/PFE/PFE_10-Q_2026-05-05.htm",
+    "size_bytes": 2081412
+  },
+  {
+    "ticker": "PFE",
+    "sector": "pharma",
+    "company": "PFIZER INC",
+    "form": "10-K",
+    "filing_date": "2026-02-26",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/PFE/PFE_10-K_2026-02-26.htm",
+    "size_bytes": 5222324
+  },
+  {
+    "ticker": "JNJ",
+    "sector": "pharma",
+    "company": "JOHNSON & JOHNSON",
+    "form": "10-Q",
+    "filing_date": "2026-07-23",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000153/jnj-20260628.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/JNJ/JNJ_10-Q_2026-07-23.htm",
+    "size_bytes": 2746633
+  },
+  {
+    "ticker": "JNJ",
+    "sector": "pharma",
+    "company": "JOHNSON & JOHNSON",
+    "form": "10-Q",
+    "filing_date": "2026-04-22",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000087/jnj-20260329.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/JNJ/JNJ_10-Q_2026-04-22.htm",
+    "size_bytes": 1932046
+  },
+  {
+    "ticker": "JNJ",
+    "sector": "pharma",
+    "company": "JOHNSON & JOHNSON",
+    "form": "10-K",
+    "filing_date": "2026-02-11",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/JNJ/JNJ_10-K_2026-02-11.htm",
+    "size_bytes": 3701587
+  },
+  {
+    "ticker": "MRK",
+    "sector": "pharma",
+    "company": "Merck & Co., Inc.",
+    "form": "10-Q",
+    "filing_date": "2026-08-07",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000212/mrk-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/MRK/MRK_10-Q_2026-08-07.htm",
+    "size_bytes": 2980374
+  },
+  {
+    "ticker": "MRK",
+    "sector": "pharma",
+    "company": "Merck & Co., Inc.",
+    "form": "10-Q",
+    "filing_date": "2026-05-04",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/310158/000162828026029802/mrk-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/MRK/MRK_10-Q_2026-05-04.htm",
+    "size_bytes": 2074889
+  },
+  {
+    "ticker": "MRK",
+    "sector": "pharma",
+    "company": "Merck & Co., Inc.",
+    "form": "10-K",
+    "filing_date": "2026-02-24",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000063/mrk-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/MRK/MRK_10-K_2026-02-24.htm",
+    "size_bytes": 5235004
+  },
+  {
+    "ticker": "LLY",
+    "sector": "pharma",
+    "company": "ELI LILLY & Co",
+    "form": "10-Q",
+    "filing_date": "2026-08-05",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000081/lly-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/LLY/LLY_10-Q_2026-08-05.htm",
+    "size_bytes": 1271760
+  },
+  {
+    "ticker": "LLY",
+    "sector": "pharma",
+    "company": "ELI LILLY & Co",
+    "form": "10-Q",
+    "filing_date": "2026-04-30",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000045/lly-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/LLY/LLY_10-Q_2026-04-30.htm",
+    "size_bytes": 885082
+  },
+  {
+    "ticker": "LLY",
+    "sector": "pharma",
+    "company": "ELI LILLY & Co",
+    "form": "10-K",
+    "filing_date": "2026-02-12",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/LLY/LLY_10-K_2026-02-12.htm",
+    "size_bytes": 2369961
+  },
+  {
+    "ticker": "ABBV",
+    "sector": "pharma",
+    "company": "AbbVie Inc.",
+    "form": "10-Q",
+    "filing_date": "2026-08-03",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000026/abbv-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/ABBV/ABBV_10-Q_2026-08-03.htm",
+    "size_bytes": 2114314
+  },
+  {
+    "ticker": "ABBV",
+    "sector": "pharma",
+    "company": "AbbVie Inc.",
+    "form": "10-Q",
+    "filing_date": "2026-05-08",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000017/abbv-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/ABBV/ABBV_10-Q_2026-05-08.htm",
+    "size_bytes": 1464088
+  },
+  {
+    "ticker": "ABBV",
+    "sector": "pharma",
+    "company": "AbbVie Inc.",
+    "form": "10-K",
+    "filing_date": "2026-02-20",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/ABBV/ABBV_10-K_2026-02-20.htm",
+    "size_bytes": 3794601
+  },
+  {
+    "ticker": "BMY",
+    "sector": "pharma",
+    "company": "BRISTOL MYERS SQUIBB CO",
+    "form": "10-Q",
+    "filing_date": "2026-07-30",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000020/bmy-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/BMY/BMY_10-Q_2026-07-30.htm",
+    "size_bytes": 2253366
+  },
+  {
+    "ticker": "BMY",
+    "sector": "pharma",
+    "company": "BRISTOL MYERS SQUIBB CO",
+    "form": "10-Q",
+    "filing_date": "2026-04-30",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000010/bmy-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/BMY/BMY_10-Q_2026-04-30.htm",
+    "size_bytes": 1646781
+  },
+  {
+    "ticker": "BMY",
+    "sector": "pharma",
+    "company": "BRISTOL MYERS SQUIBB CO",
+    "form": "10-K",
+    "filing_date": "2026-02-11",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000004/bmy-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/BMY/BMY_10-K_2026-02-11.htm",
+    "size_bytes": 3845281
+  },
+  {
+    "ticker": "GILD",
+    "sector": "pharma",
+    "company": "GILEAD SCIENCES, INC.",
+    "form": "10-Q",
+    "filing_date": "2026-08-06",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000031/gild-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/GILD/GILD_10-Q_2026-08-06.htm",
+    "size_bytes": 2590601
+  },
+  {
+    "ticker": "GILD",
+    "sector": "pharma",
+    "company": "GILEAD SCIENCES, INC.",
+    "form": "10-Q",
+    "filing_date": "2026-05-07",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000024/gild-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/GILD/GILD_10-Q_2026-05-07.htm",
+    "size_bytes": 1871292
+  },
+  {
+    "ticker": "GILD",
+    "sector": "pharma",
+    "company": "GILEAD SCIENCES, INC.",
+    "form": "10-K",
+    "filing_date": "2026-02-24",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000006/gild-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/GILD/GILD_10-K_2026-02-24.htm",
+    "size_bytes": 3114728
+  },
+  {
+    "ticker": "AMGN",
+    "sector": "pharma",
+    "company": "AMGEN INC",
+    "form": "10-Q",
+    "filing_date": "2026-08-05",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000126/amgn-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/AMGN/AMGN_10-Q_2026-08-05.htm",
+    "size_bytes": 2508974
+  },
+  {
+    "ticker": "AMGN",
+    "sector": "pharma",
+    "company": "AMGEN INC",
+    "form": "10-Q",
+    "filing_date": "2026-05-01",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000057/amgn-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/AMGN/AMGN_10-Q_2026-05-01.htm",
+    "size_bytes": 1921814
+  },
+  {
+    "ticker": "AMGN",
+    "sector": "pharma",
+    "company": "AMGEN INC",
+    "form": "10-K",
+    "filing_date": "2026-02-13",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000010/amgn-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/AMGN/AMGN_10-K_2026-02-13.htm",
+    "size_bytes": 3761124
+  },
+  {
+    "ticker": "MRNA",
+    "sector": "pharma",
+    "company": "Moderna, Inc.",
+    "form": "10-Q",
+    "filing_date": "2026-07-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000150/mrna-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/MRNA/MRNA_10-Q_2026-07-31.htm",
+    "size_bytes": 1474088
+  },
+  {
+    "ticker": "MRNA",
+    "sector": "pharma",
+    "company": "Moderna, Inc.",
+    "form": "10-Q",
+    "filing_date": "2026-05-01",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000060/mrna-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/MRNA/MRNA_10-Q_2026-05-01.htm",
+    "size_bytes": 1195425
+  },
+  {
+    "ticker": "MRNA",
+    "sector": "pharma",
+    "company": "Moderna, Inc.",
+    "form": "10-K",
+    "filing_date": "2026-02-20",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000033/mrna-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/MRNA/MRNA_10-K_2026-02-20.htm",
+    "size_bytes": 2677412
+  },
+  {
+    "ticker": "REGN",
+    "sector": "pharma",
+    "company": "REGENERON PHARMACEUTICALS, INC.",
+    "form": "10-Q",
+    "filing_date": "2026-07-30",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000025/regn-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/REGN/REGN_10-Q_2026-07-30.htm",
+    "size_bytes": 2109243
+  },
+  {
+    "ticker": "REGN",
+    "sector": "pharma",
+    "company": "REGENERON PHARMACEUTICALS, INC.",
+    "form": "10-Q",
+    "filing_date": "2026-04-29",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000016/regn-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/REGN/REGN_10-Q_2026-04-29.htm",
+    "size_bytes": 1659637
+  },
+  {
+    "ticker": "REGN",
+    "sector": "pharma",
+    "company": "REGENERON PHARMACEUTICALS, INC.",
+    "form": "10-K",
+    "filing_date": "2026-02-04",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/regn-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/REGN/REGN_10-K_2026-02-04.htm",
+    "size_bytes": 3119136
+  },
+  {
+    "ticker": "JPM",
+    "sector": "financial",
+    "company": "JPMORGAN CHASE & CO",
+    "form": "10-Q",
+    "filing_date": "2026-08-06",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026054343/jpm-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/JPM/JPM_10-Q_2026-08-06.htm",
+    "size_bytes": 11513874
+  },
+  {
+    "ticker": "JPM",
+    "sector": "financial",
+    "company": "JPMORGAN CHASE & CO",
+    "form": "10-Q",
+    "filing_date": "2026-05-01",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026029344/jpm-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/JPM/JPM_10-Q_2026-05-01.htm",
+    "size_bytes": 9164610
+  },
+  {
+    "ticker": "JPM",
+    "sector": "financial",
+    "company": "JPMORGAN CHASE & CO",
+    "form": "10-K",
+    "filing_date": "2026-02-13",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/JPM/JPM_10-K_2026-02-13.htm",
+    "size_bytes": 12927325
+  },
+  {
+    "ticker": "GS",
+    "sector": "financial",
+    "company": "GOLDMAN SACHS GROUP INC",
+    "form": "10-Q",
+    "filing_date": "2026-08-03",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000297/gs-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/GS/GS_10-Q_2026-08-03.htm",
+    "size_bytes": 9004943
+  },
+  {
+    "ticker": "GS",
+    "sector": "financial",
+    "company": "GOLDMAN SACHS GROUP INC",
+    "form": "10-Q",
+    "filing_date": "2026-05-01",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000118/gs-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/GS/GS_10-Q_2026-05-01.htm",
+    "size_bytes": 7682247
+  },
+  {
+    "ticker": "GS",
+    "sector": "financial",
+    "company": "GOLDMAN SACHS GROUP INC",
+    "form": "10-K",
+    "filing_date": "2026-02-25",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/GS/GS_10-K_2026-02-25.htm",
+    "size_bytes": 9611165
+  },
+  {
+    "ticker": "BAC",
+    "sector": "financial",
+    "company": "BANK OF AMERICA CORP /DE/",
+    "form": "10-Q",
+    "filing_date": "2026-07-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000394/bac-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/BAC/BAC_10-Q_2026-07-31.htm",
+    "size_bytes": 10917314
+  },
+  {
+    "ticker": "BAC",
+    "sector": "financial",
+    "company": "BANK OF AMERICA CORP /DE/",
+    "form": "10-Q",
+    "filing_date": "2026-05-01",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000249/bac-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/BAC/BAC_10-Q_2026-05-01.htm",
+    "size_bytes": 9055123
+  },
+  {
+    "ticker": "BAC",
+    "sector": "financial",
+    "company": "BANK OF AMERICA CORP /DE/",
+    "form": "10-K",
+    "filing_date": "2026-02-25",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/BAC/BAC_10-K_2026-02-25.htm",
+    "size_bytes": 12819060
+  },
+  {
+    "ticker": "MS",
+    "sector": "financial",
+    "company": "MORGAN STANLEY",
+    "form": "10-Q",
+    "filing_date": "2026-08-04",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000212/ms-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/MS/MS_10-Q_2026-08-04.htm",
+    "size_bytes": 8095621
+  },
+  {
+    "ticker": "MS",
+    "sector": "financial",
+    "company": "MORGAN STANLEY",
+    "form": "10-Q",
+    "filing_date": "2026-05-05",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000121/ms-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/MS/MS_10-Q_2026-05-05.htm",
+    "size_bytes": 6670570
+  },
+  {
+    "ticker": "MS",
+    "sector": "financial",
+    "company": "MORGAN STANLEY",
+    "form": "10-K",
+    "filing_date": "2026-02-19",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/ms-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/MS/MS_10-K_2026-02-19.htm",
+    "size_bytes": 9714712
+  },
+  {
+    "ticker": "WFC",
+    "sector": "financial",
+    "company": "WELLS FARGO & COMPANY/MN",
+    "form": "10-Q",
+    "filing_date": "2026-07-28",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000302/wfc-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/WFC/WFC_10-Q_2026-07-28.htm",
+    "size_bytes": 10648938
+  },
+  {
+    "ticker": "WFC",
+    "sector": "financial",
+    "company": "WELLS FARGO & COMPANY/MN",
+    "form": "10-Q",
+    "filing_date": "2026-04-29",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000217/wfc-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/WFC/WFC_10-Q_2026-04-29.htm",
+    "size_bytes": 8552078
+  },
+  {
+    "ticker": "WFC",
+    "sector": "financial",
+    "company": "WELLS FARGO & COMPANY/MN",
+    "form": "10-K",
+    "filing_date": "2026-02-24",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231_d2.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/WFC/WFC_10-K_2026-02-24.htm",
+    "size_bytes": 359609
+  },
+  {
+    "ticker": "C",
+    "sector": "financial",
+    "company": "CITIGROUP INC",
+    "form": "10-Q",
+    "filing_date": "2026-08-06",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000045/c-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/C/C_10-Q_2026-08-06.htm",
+    "size_bytes": 14543949
+  },
+  {
+    "ticker": "C",
+    "sector": "financial",
+    "company": "CITIGROUP INC",
+    "form": "10-Q",
+    "filing_date": "2026-05-07",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000019/c-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/C/C_10-Q_2026-05-07.htm",
+    "size_bytes": 11277844
+  },
+  {
+    "ticker": "C",
+    "sector": "financial",
+    "company": "CITIGROUP INC",
+    "form": "10-K",
+    "filing_date": "2026-02-20",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/c-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/C/C_10-K_2026-02-20.htm",
+    "size_bytes": 16150764
+  },
+  {
+    "ticker": "AXP",
+    "sector": "financial",
+    "company": "AMERICAN EXPRESS CO",
+    "form": "10-Q",
+    "filing_date": "2026-07-24",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000322/axp-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/AXP/AXP_10-Q_2026-07-24.htm",
+    "size_bytes": 3225094
+  },
+  {
+    "ticker": "AXP",
+    "sector": "financial",
+    "company": "AMERICAN EXPRESS CO",
+    "form": "10-Q",
+    "filing_date": "2026-04-23",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000192/axp-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/AXP/AXP_10-Q_2026-04-23.htm",
+    "size_bytes": 2399964
+  },
+  {
+    "ticker": "AXP",
+    "sector": "financial",
+    "company": "AMERICAN EXPRESS CO",
+    "form": "10-K",
+    "filing_date": "2026-02-06",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/AXP/AXP_10-K_2026-02-06.htm",
+    "size_bytes": 5080618
+  },
+  {
+    "ticker": "BLK",
+    "sector": "financial",
+    "company": "BlackRock, Inc.",
+    "form": "10-Q",
+    "filing_date": "2026-08-06",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526337177/blk-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/BLK/BLK_10-Q_2026-08-06.htm",
+    "size_bytes": 10477999
+  },
+  {
+    "ticker": "BLK",
+    "sector": "financial",
+    "company": "BlackRock, Inc.",
+    "form": "10-Q",
+    "filing_date": "2026-05-06",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526208766/blk-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/BLK/BLK_10-Q_2026-05-06.htm",
+    "size_bytes": 7556138
+  },
+  {
+    "ticker": "BLK",
+    "sector": "financial",
+    "company": "BlackRock, Inc.",
+    "form": "10-K",
+    "filing_date": "2026-02-25",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/BLK/BLK_10-K_2026-02-25.htm",
+    "size_bytes": 12551314
+  },
+  {
+    "ticker": "SCHW",
+    "sector": "financial",
+    "company": "SCHWAB CHARLES CORP",
+    "form": "10-Q",
+    "filing_date": "2026-08-07",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000031/schw-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/SCHW/SCHW_10-Q_2026-08-07.htm",
+    "size_bytes": 4422360
+  },
+  {
+    "ticker": "SCHW",
+    "sector": "financial",
+    "company": "SCHWAB CHARLES CORP",
+    "form": "10-Q",
+    "filing_date": "2026-05-08",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000019/schw-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/SCHW/SCHW_10-Q_2026-05-08.htm",
+    "size_bytes": 3578685
+  },
+  {
+    "ticker": "SCHW",
+    "sector": "financial",
+    "company": "SCHWAB CHARLES CORP",
+    "form": "10-K",
+    "filing_date": "2026-02-25",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/SCHW/SCHW_10-K_2026-02-25.htm",
+    "size_bytes": 5307796
+  },
+  {
+    "ticker": "USB",
+    "sector": "financial",
+    "company": "US BANCORP \\DE\\",
+    "form": "10-Q",
+    "filing_date": "2026-08-06",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000044/usb-20260630.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/USB/USB_10-Q_2026-08-06.htm",
+    "size_bytes": 5088802
+  },
+  {
+    "ticker": "USB",
+    "sector": "financial",
+    "company": "US BANCORP \\DE\\",
+    "form": "10-Q",
+    "filing_date": "2026-05-04",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000024/usb-20260331.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/USB/USB_10-Q_2026-05-04.htm",
+    "size_bytes": 3858542
+  },
+  {
+    "ticker": "USB",
+    "sector": "financial",
+    "company": "US BANCORP \\DE\\",
+    "form": "10-K",
+    "filing_date": "2026-02-23",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000011/usb-20251231.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/USB/USB_10-K_2026-02-23.htm",
+    "size_bytes": 972606
+  },
+  {
+    "ticker": "INTC",
+    "sector": "tech",
+    "company": "INTEL CORP",
+    "form": "10-Q",
+    "filing_date": "2026-07-24",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/intc-20260627.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/INTC/INTC_10-Q_2026-07-24.htm",
+    "size_bytes": 1716683
+  },
+  {
+    "ticker": "INTC",
+    "sector": "tech",
+    "company": "INTEL CORP",
+    "form": "10-Q",
+    "filing_date": "2026-04-24",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000079/intc-20260328.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/INTC/INTC_10-Q_2026-04-24.htm",
+    "size_bytes": 1486263
+  },
+  {
+    "ticker": "INTC",
+    "sector": "tech",
+    "company": "INTEL CORP",
+    "form": "10-K",
+    "filing_date": "2026-01-23",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+    "local_path": "/Users/mohammadamaan/Claude Projects/Content OS/rag-due-diligence-copilot/data/raw/INTC/INTC_10-K_2026-01-23.htm",
+    "size_bytes": 3320720
+  }
+]

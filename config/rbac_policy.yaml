@@ -1,0 +1,35 @@
+# RBAC policy (BUILD_SPEC.md Part 6) — versioned in a config file so changes
+# are reviewable in a diff, the same reasoning as prompt_templates.yaml.
+#
+# Enforcement point: at RETRIEVAL time (Qdrant payload filter + BM25 candidate
+# pre-filter), never post-generation. Filtering after the LLM has seen the
+# context is the exact "IAM stripped at ingestion" failure this is built to fix.
+#
+# Roles:
+#   analyst             — internal M&A analyst, full access to all indexed filings
+#   external_contractor — deal-specific contractor, restricted subset (no
+#                         financial-sector filings)
+#   compliance          — superset role: everything, plus access to audit logs
+#
+# This is a DEMO policy: SEC EDGAR data is public, so nothing here is truly
+# confidential. Tagging the financial sector as "internal-only" simulates a
+# real deployment where some documents (pre-deal materials, non-public data)
+# would be restricted, purely to exercise and prove the mechanism.
+
+roles:
+  analyst:
+    description: "Internal M&A / equity-research analyst. Full access to all indexed filings."
+  external_contractor:
+    description: "Deal-specific external contractor. Restricted subset; financial-sector filings are excluded."
+  compliance:
+    description: "Superset role. Sees everything and has access to retrieval audit logs."
+
+# Sector-level restriction. Chunks in a restricted sector are visible ONLY to
+# the roles listed here. Sectors not listed fall through to default_allowed_roles.
+sector_restrictions:
+  financial:
+    allowed_roles: ["analyst", "compliance"]
+    note: "Simulated 'internal-only' boundary for the portfolio demo."
+
+# Roles allowed on every chunk that is not sector-restricted.
+default_allowed_roles: ["analyst", "compliance", "external_contractor"]

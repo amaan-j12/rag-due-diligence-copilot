@@ -1,0 +1,30 @@
+{"id": "q01", "category": "single_hop", "question": "What does Apple identify as a key risk factor related to its supply chain concentration?", "tickers": ["AAPL"]}
+{"id": "q02", "category": "single_hop", "question": "What legal proceedings does Johnson & Johnson disclose related to talc litigation?", "tickers": ["JNJ"]}
+{"id": "q03", "category": "single_hop", "question": "According to Microsoft's filing, what cybersecurity risks does the company highlight?", "tickers": ["MSFT"]}
+{"id": "q04", "category": "single_hop", "question": "What does JPMorgan Chase disclose about its capital requirements under regulatory rules?", "tickers": ["JPM"]}
+{"id": "q05", "category": "single_hop", "question": "What risk factors does Pfizer disclose regarding patent expirations?", "tickers": ["PFE"]}
+{"id": "q06", "category": "single_hop", "question": "What does NVIDIA's filing say about export control restrictions affecting its business?", "tickers": ["NVDA"]}
+{"id": "q07", "category": "single_hop", "question": "What does Goldman Sachs disclose about market risk in its quantitative and qualitative disclosures section?", "tickers": ["GS"]}
+{"id": "q08", "category": "single_hop", "question": "What litigation or legal proceedings does Intel disclose in its most recent filing?", "tickers": ["INTC"]}
+{"id": "q09", "category": "single_hop", "question": "What does Moderna's filing say about risks related to its product pipeline and reliance on COVID-19 vaccine revenue?", "tickers": ["MRNA"]}
+{"id": "q10", "category": "single_hop", "question": "What does Wells Fargo disclose about regulatory consent orders or enforcement actions?", "tickers": ["WFC"]}
+{"id": "q11", "category": "single_hop", "question": "What does Adobe's filing say about risks from AI-related competition or generative AI?", "tickers": ["ADBE"]}
+{"id": "q12", "category": "single_hop", "question": "What does Eli Lilly disclose about manufacturing risk for its GLP-1 / weight-loss drug products?", "tickers": ["LLY"]}
+{"id": "q13", "category": "multi_hop", "question": "Compare the litigation risk disclosures of Johnson & Johnson and Bristol-Myers Squibb -- which company discloses more significant ongoing legal proceedings, and what are they?", "tickers": ["JNJ", "BMY"]}
+{"id": "q14", "category": "multi_hop", "question": "Compare how Apple and Microsoft each describe supply chain or manufacturing concentration risk in their risk factors sections.", "tickers": ["AAPL", "MSFT"]}
+{"id": "q15", "category": "multi_hop", "question": "Compare the capital markets / regulatory capital risk disclosures of JPMorgan Chase and Goldman Sachs.", "tickers": ["JPM", "GS"]}
+{"id": "q16", "category": "multi_hop", "question": "Compare Intel and AMD's risk factors related to competition in the semiconductor industry -- what does each company emphasize?", "tickers": ["INTC", "AMD"]}
+{"id": "q17", "category": "multi_hop", "question": "Compare Pfizer and Gilead Sciences on patent expiration / loss of exclusivity risk -- which discloses a more near-term risk?", "tickers": ["PFE", "GILD"]}
+{"id": "q18", "category": "multi_hop", "question": "Compare Bank of America and Citigroup's disclosures on cybersecurity risk in their filings.", "tickers": ["BAC", "C"]}
+{"id": "q19", "category": "multi_hop", "question": "Compare Amgen and Regeneron's risk factors related to reliance on a small number of key products for revenue.", "tickers": ["AMGN", "REGN"]}
+{"id": "q20", "category": "multi_hop", "question": "Compare Salesforce and Oracle's risk factors related to competition from AI-native software vendors.", "tickers": ["CRM", "ORCL"]}
+{"id": "q21", "category": "multi_hop", "question": "Compare Morgan Stanley and Charles Schwab's disclosures about interest rate risk.", "tickers": ["MS", "SCHW"]}
+{"id": "q22", "category": "multi_hop", "question": "Compare AbbVie and Merck on risk factors tied to loss of exclusivity for their top-selling drugs.", "tickers": ["ABBV", "MRK"]}
+{"id": "q23", "category": "multi_hop", "question": "Compare American Express and BlackRock's risk factor disclosures about macroeconomic / credit risk exposure.", "tickers": ["AXP", "BLK"]}
+{"id": "q24", "category": "multi_hop", "question": "Compare Cisco and IBM's risk factors related to enterprise customer demand and macroeconomic sensitivity.", "tickers": ["CSCO", "IBM"]}
+{"id": "q25", "category": "out_of_scope", "question": "What is the current weather forecast for New York City this week?", "tickers": []}
+{"id": "q26", "category": "out_of_scope", "question": "Can you give me investment advice on whether I should buy Tesla stock right now?", "tickers": []}
+{"id": "q27", "category": "out_of_scope", "question": "What are Tesla's risk factors related to autonomous driving litigation?", "tickers": []}
+{"id": "q28", "category": "out_of_scope", "question": "What is the recipe for a good chocolate chip cookie?", "tickers": []}
+{"id": "q29", "category": "out_of_scope", "question": "What was Amazon's revenue growth in its most recent quarter?", "tickers": []}
+{"id": "q30", "category": "out_of_scope", "question": "Can you write a Python script that scrapes stock prices from Yahoo Finance?", "tickers": []}

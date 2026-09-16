@@ -1,0 +1,34 @@
+# CI eval-gate thresholds (BUILD_SPEC.md Part 7).
+#
+# The gate runs a cheap 8-question subset of the eval set through the
+# faithfulness verifier and fails the PR/run if any metric drops below its
+# bar. Regenerate the committed snapshot when prompt/retrieval/verification
+# config changes intend to MOVE these numbers:
+#
+#     python eval/ci_eval_gate.py --refresh        # requires local opencode CLI
+#
+# CI (no LLM available in GitHub Actions) compares the committed snapshot
+# in eval/results/ci_snapshot.json against these bounds and exits non-zero on
+# breach -- so a regression snapshot that gets committed fails the PR.
+
+thresholds:
+  # fraction of subset questions with an LLM-verifiable (non-skipped) answer
+  # that passed faithfulness (hard gate: answers ship only if pass=True)
+  min_answer_pass_rate: 0.90
+
+  # mean faithfulness score across non-skipped questions (BUILD_SPEC example
+  # bar is faithfulness < 0.85 fails -- keep margin above it)
+  min_avg_faithfulness: 0.92
+  max_avg_faithfulness: 1.01        # sanity upper bound (score is a fraction)
+
+  # every out-of-scope question in the subset MUST be fast-path dismissed
+  # (pure refusal, no LLM call) -- this is the refusal behavior we rely on
+  min_out_of_scope_dismissed: 1.0
+
+  # zero opencode CLI call failures in a healthy run (transients happen; a
+  # single transient retry is built into the refresh path, so reaching CI
+  # still-failing means a real backend problem)
+  max_call_failure_rate: 0.0
+
+  # hard cap on verifier cost/latency drift: average ms per verified answer
+  max_avg_latency_ms: 120000.0

@@ -1,0 +1,55 @@
+# Retrieval / embedding / chunking configuration — pinned versions.
+# BUILD_SPEC.md Part 4: pin embedding model name/version explicitly to guard
+# against embedding drift. If this model ever changes, ALL vectors must be
+# fully re-embedded and re-indexed (old vectors are not comparable to new
+# query vectors from a different model).
+
+embedding:
+  model_name: "BAAI/bge-base-en-v1.5"
+  model_revision: "main"   # pin to a commit hash in production; "main" for portfolio v1
+  dimension: 768
+  normalize: true
+  # bge models expect a query instruction prefix for asymmetric search
+  query_instruction: "Represent this sentence for searching relevant passages: "
+
+reranker:
+  model_name: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+
+chunking:
+  target_tokens_min: 500
+  target_tokens_max: 800
+  overlap_tokens: 100
+  tokenizer_encoding: "cl100k_base"   # tiktoken encoding used only for token counting
+  section_headers:
+    - "Item 1 Business"
+    - "Item 1A Risk Factors"
+    - "Item 1B Unresolved Staff Comments"
+    - "Item 2 Properties"
+    - "Item 3 Legal Proceedings"
+    - "Item 4 Mine Safety Disclosures"
+    - "Item 5 Market for Registrant"
+    - "Item 6 Selected Financial Data"
+    - "Item 7 Management's Discussion and Analysis"
+    - "Item 7A Quantitative and Qualitative Disclosures About Market Risk"
+    - "Item 8 Financial Statements"
+    - "Item 9 Changes in and Disagreements with Accountants"
+    - "Item 9A Controls and Procedures"
+
+retrieval:
+  dense_top_k: 20
+  bm25_top_k: 20
+  rrf_k: 60          # standard RRF constant
+  fused_top_k: 20    # size of the fused list passed into reranking
+  rerank_top_k: 5     # final number of chunks passed to generation
+
+qdrant:
+  path: "./data/qdrant_db"
+  collection_name: "sec_filings"
+  distance: "Cosine"
+
+bm25:
+  index_path: "./data/bm25_index.pkl"
+
+rbac:
+  roles: ["analyst", "compliance", "external_contractor"]
+  default_allowed_roles: ["analyst", "compliance"]
