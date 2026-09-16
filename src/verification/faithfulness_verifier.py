@@ -2,7 +2,7 @@
 Faithfulness verifier: checks whether a generated answer's claims are
 entailed by the retrieved context chunks it cites.
 
-Backend is the opencode CLI (free models, DeepSeek) running as a
+Backend is the opencode CLI (free flagship model, big-pickle) running as a
 subprocess -- switched back from claude CLI after hitting Claude Code's
 session limit. No separate auth/batching handoff needed.
 

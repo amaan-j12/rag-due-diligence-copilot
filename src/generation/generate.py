@@ -143,7 +143,7 @@ def _try_anthropic_api(system_prompt: str, user_prompt: str, model: str = HAIKU_
 def generate_answer(question: str, chunks: list[dict], version: str = None) -> dict:
     system_prompt, user_prompt = build_prompt(question, chunks, version)
 
-    # 1. Try opencode with DeepSeek (free, primary)
+    # 1. Try opencode with big-pickle (free, primary)
     answer = _try_opencode_cli(system_prompt, user_prompt)
     source = "opencode_cli"
 
